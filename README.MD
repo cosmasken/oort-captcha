@@ -22,12 +22,13 @@ cd oort-captcha
 ```bash
 npm install
 ```
+3. Create a `.env` file in the root directory and add your Oort storage configuration:
 
-3. Create a .env file in the root directory and add your Oort storage configuration:
-
+```plaintext
 OORT_ENDPOINT="https://s3-standard.oortech.com"
 OORT_ACCESS_KEY_ID=""
 OORT_SECRET_ACCESS_KEY=""
+```
 
 4. Usage
 
